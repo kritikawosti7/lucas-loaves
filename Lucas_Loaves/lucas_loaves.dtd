@@ -1,0 +1,18 @@
+<!ELEMENT bakery (brand, tagline, introduction, products, media, footer)>
+<!ELEMENT brand (#PCDATA)>
+<!ELEMENT tagline (#PCDATA)>
+<!ELEMENT introduction (#PCDATA)>
+<!ELEMENT products (product+)>
+<!ELEMENT product (name, price, description)>
+<!ATTLIST product id ID #REQUIRED category (classic | hearty | seeded) #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ATTLIST price currency (AUD) #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT media (image, audio)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image src CDATA #REQUIRED alt CDATA #REQUIRED width CDATA #REQUIRED height CDATA #REQUIRED>
+<!ELEMENT audio EMPTY>
+<!ATTLIST audio src CDATA #REQUIRED type CDATA #REQUIRED title CDATA #REQUIRED>
+<!ELEMENT footer (copyright)>
+<!ELEMENT copyright (#PCDATA)>

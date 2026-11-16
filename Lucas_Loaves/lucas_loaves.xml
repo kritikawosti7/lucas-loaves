@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lucas_loaves.xsl"?>
+<!DOCTYPE bakery SYSTEM "lucas_loaves.dtd">
+<bakery>
+	<brand>Luca's Loaves</brand>
+	<tagline>Fresh sourdough, baked daily</tagline>
+	<introduction>Slow-fermented, small-batch sourdough made fresh each morning in our neighbourhood bakery.</introduction>
+	<products>
+		<product id="white" category="classic">
+			<name>Sourdough White</name>
+			<price currency="AUD">7.00</price>
+			<description>A mild, open-crumb loaf with a crisp golden crust. Lovely for toast, sandwiches and sharing.</description>
+		</product>
+		<product id="rye" category="hearty">
+			<name>Sourdough Rye</name>
+			<price currency="AUD">8.00</price>
+			<description>Earthy rye flour and a long fermentation make this a gently tangy loaf with a satisfyingly dense crumb.</description>
+		</product>
+		<product id="spelt" category="hearty">
+			<name>Sourdough Spelt</name>
+			<price currency="AUD">9.00</price>
+			<description>Nutty, naturally sweet spelt gives this tender loaf a delicate flavour and a beautifully browned crust.</description>
+		</product>
+		<product id="seeded" category="seeded">
+			<name>Sourdough Seeded</name>
+			<price currency="AUD">9.50</price>
+			<description>A rustic sourdough loaf finished with a generous mix of toasted seeds for extra crunch.</description>
+		</product>
+	</products>
+	<media>
+		<image src="bread.gif" alt="An original animated illustration of a golden sourdough loaf rising gently on a bakery tray." width="360" height="300" />
+		<audio src="bread.wav" type="audio/wav" title="A short original bakery bell melody" />
+	</media>
+	<footer>
+		<copyright>Copyright 2026 Luca's Loaves. All rights reserved.</copyright>
+	</footer>
+</bakery>
